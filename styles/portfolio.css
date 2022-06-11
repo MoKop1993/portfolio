@@ -51,26 +51,39 @@ color: #272142;
     font-size: 24px;
 }
 
-.about-section {
+.content-container {
     padding: 50px 20px 160px 20px;
 }
 
-.about-section h1 {
-font-size: 64px;
+.content h1 {
+font-size: 54px;
 line-height: 80px;
 }
 
-.about-section h2 {
+.content h2 {
     font-size: 18px;
     font-family: var(--default-font-family);
 }
 
-.about-section-content {
+.content h3 {
+    font-size: 24px;
+    line-height: 1.5;
+    margin: 20px 0 0;
+    font-family: var(--default-font-family);
+}
+
+.content p {
+   
+    font-size: 14px;
+}
+    
+
+
+
+.content {
     margin: 30px;
    
 }
-
-
 
 .btn-branding {
     background: var(--branding-color);
@@ -114,7 +127,7 @@ line-height: 80px;
         padding: 80px 20px;
     }
 
-    .about-section {
+    .content-container {
         text-align: center;
         padding: 0;
     }
@@ -124,7 +137,7 @@ padding: o;
 text-align: center;
 }
 
-.about-section .btn-branding {
+.content-container .btn-branding {
     margin-top: 20px;
     margin-bottom: 70px;
 }
